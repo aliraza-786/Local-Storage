@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Local Storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    #input{
+        display: none;
+        width: 200px;
+        height: 300px;
+        float: left;
+    }
+    #output{
+        display: none;
+        border: 2px solid black;
+        width: 200px;
+        height: 300px;
+        float: right;
+    }
+    </style>
+
+</head>
+<body>
+    <div id="input">
+        <form action="javascript:void(0)">
+            <input type="text" id="fname" placeholder="First Name"><br/>
+            <input type="text" id="lname" placeholder="Last Name"><br/>
+            <input type="submit" value="Log In" onclick="myfun()">
+        </form>
+    </div>
+
+    <div id="output">
+        <p id="result"></p>
+
+        <input type="submit" value="Log Out" onclick="logout()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
